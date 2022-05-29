@@ -1,7 +1,9 @@
 import React from 'react';
+import Menu from "./Menu";
 import "../Styles/LeftMenu.css";
 import { FaSpotify , FaEllipsisH } from "react-icons/fa";
 import { BiSearchAlt } from "react-icons/bi";
+import { MenuList } from './MenuList';
 const LeftMenu = () => {
     return (
         <div>
@@ -16,6 +18,8 @@ const LeftMenu = () => {
                    <i className="serachIcon"><BiSearchAlt /></i> 
                 </div>
             </div>
+
+            <Menu title={"Menu"} listObject={MenuList} />
         </div>
     );
 };
