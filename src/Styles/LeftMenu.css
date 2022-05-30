@@ -112,7 +112,7 @@
 .menuContainer ul li:hover:before,
 .menuContainer ul li.active:before{
     height: 100%;
-    transition:0.3s;
+    transition:width 0.3s;
 }
 .menuContainer ul li a:hover,
 .menuContainer ul li.active a{
