@@ -5,15 +5,16 @@ const Menu = ({title,listObject}) => {
     return (
         
         <div className="menuContainer">
-        <p>{title}</p>
+        <p className="title">{title}</p>
   
         <ul>
           {listObject &&
-            listObject.map((li) => (
-              <li key={li.id}>
+            listObject.map((menu) => (
+              <li key={menu.id}>
+                {" "}
                 <a href="#">
-                  <i>{li.icon}</i>
-                  <span> {li.name}</span>
+                  <i>{menu.icon}</i>
+                  <span> {menu.name}</span>
                 </a>
               </li>
             ))}

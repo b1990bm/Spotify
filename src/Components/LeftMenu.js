@@ -17,9 +17,10 @@ const LeftMenu = () => {
                    <input type="text" placeholder='Search...' />
                    <i className="serachIcon"><BiSearchAlt /></i> 
                 </div>
+                <Menu title={"Menu"} listObject={MenuList} />
             </div>
 
-            <Menu title={"Menu"} listObject={MenuList} />
+           
         </div>
     );
 };
