@@ -174,7 +174,10 @@
 }
 .trackList{
     border: 1px solid rgba(255,255,255,0.1);
-    padding-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-left: none ;
+    border-right:none;
 }
 .trackList .top{
     display: flex;
@@ -223,12 +226,12 @@
     appearance: none;
 
 }
-.trackList .bottom input::before{
+.trackList .bottom input::before {
     position: absolute;
     content: '';
     top: 0;
     left: 0;
-    background-image: #49e12e;
+    background: #49e12e;
     width: 50%;
     height: 100%;
     border-radius: 10px;
