@@ -6,7 +6,7 @@
     backdrop-filter: blur(10px);
     overflow: hidden;
     padding: 20px 15px;
-    transition: all 0.3 ease;
+    transition: all 0.3 cubic-bezier(.17,.67,1,.19);
 
 }
 .leftmenu .logoContainer{
@@ -17,8 +17,12 @@
 }
 .leftmenu .logoContainer i{
     font-size: 30px;
+    margin-left: 20px;
 }
-
+.leftmenu .logoContainer h2{
+    transform: translateX(-25px);
+    
+}
 .leftmenu .logoContainer i:nth-last-of-type(2){
     font-size: 20px !important;
 }
@@ -268,4 +272,46 @@
     border-radius: 10px;
     z-index: 2;
     transition: width 250ms linear;
+}
+@media screen and (max-width: 550px){
+    .leftmenu{
+        width: 64px;
+        height: 300px;
+    }
+    .leftmenu .searchBax {
+        display: none;
+      }
+      .leftmenu .logoContainer h2{
+          display: none;
+      }
+      .leftmenu .logoContainer .logosportify{
+        transform: translateX(-15px);
+        
+    }
+    .leftmenu .logoContainer .iconellpish{
+        display: none;
+    }
+    
+      .leftmenu .trackList {
+        display: none;
+      }
+    
+      .leftMenu .playListContainer {
+        display: none;
+      }
+    
+      .leftmenu .menuContainer ul li a span {
+        display: none;
+      }
+      .leftmenu .menuContainer ul li a i {
+        font-size: 25px;
+      }
+    
+      .leftmenu .menuContainer ul li {
+        margin: 25px 5px;
+      }
+      .playListContainer {
+          display: none;
+      }
+    
 }

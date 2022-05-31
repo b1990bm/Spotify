@@ -11,9 +11,9 @@ const LeftMenu = () => {
         <div>
             <div className="leftmenu">
                 <div className="logoContainer">
-                    <i><FaSpotify /></i>
+                    <i className='logosportify'><FaSpotify /></i>
                     <h2>Spotify</h2>
-                    <i><FaEllipsisH /></i>
+                    <i className="iconellpish"><FaEllipsisH /></i>
                 </div>
                 <div className="searchBax">
                    <input type="text" placeholder='Search...' />
