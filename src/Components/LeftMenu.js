@@ -5,6 +5,7 @@ import { FaSpotify , FaEllipsisH } from "react-icons/fa";
 import { BiSearchAlt } from "react-icons/bi";
 import { MenuList } from './MenuList';
 import MenuPlayList from './MenuPlayList';
+import TrackList from './TrackList';
 const LeftMenu = () => {
     return (
         <div>
@@ -20,6 +21,7 @@ const LeftMenu = () => {
                 </div>
                 <Menu title={"Menu"} listObject={MenuList} />
                 <MenuPlayList />
+                <TrackList />
             </div>
 
            
