@@ -1,6 +1,7 @@
 .leftmenu{
     width: 240px;
     height: 100%;
+    z-index: 1;
     min-height: 100Vh;
     background-color: rgba(34,34,34,0.6);
     backdrop-filter: blur(10px);
