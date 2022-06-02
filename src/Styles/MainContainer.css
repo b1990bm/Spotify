@@ -121,3 +121,35 @@
 .banner .content .artist .right a:hover{
     box-shadow: 5px 10px 20px rgba(0,0,0,.9);
 }
+.menuList{
+    
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding: 15px 25px;
+    background: #2c2c2c;
+
+}
+.menuList ul{
+    display:flex;
+    align-items:center;
+
+}
+.menuList ul li{
+    list-style:none;
+    margin: 0 20px;
+    position: relative;
+}
+.menuList ul li a{
+    color: #848484;
+    font-size:14px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+
+.menuList ul li a:hover,
+.menuList ul li.active a{
+    color: #f1f1f1;
+    
+}
