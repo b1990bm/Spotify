@@ -4,7 +4,7 @@ import "../Styles/RightMenu.css";
 const RightMenu = () => {
     return (
         <div className='rightContainer'>
-
+            
             
         </div>
     );
