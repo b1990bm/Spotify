@@ -247,8 +247,14 @@
   .AudioList .songs .song .section .hits p {
     margin: 0 20px;
   }
+  .AudioList .songs .song .section .hits p i{
+    margin: 0 8px;
+  }
   
   .AudioList .songs .song .section .hits p:nth-child(1) {
+    margin-left: 0;
+  }
+  .AudioList .songs .song .section .hits p:nth-child(2) {
     margin-left: 0;
   }
   
