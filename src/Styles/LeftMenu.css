@@ -243,21 +243,20 @@
     z-index: 2;
     transition:width 250ms linear;
 }
-.trackList .bottom input::-webkit-slider-thumb{
+.trackList .bottom input::-webkit-slider-thumb {
     -webkit-appearance: none;
     width: 10px;
     height: 20px;
     border-radius: 10px;
-    background-color: #f1f1f1;
     border: 2px solid #000;
     cursor: pointer;
     position: relative;
     margin: -2px 0 0 0;
     z-index: 3;
     box-sizing: border-box;
-    transition:all 250ms linear;
-
-}
+    transition: all 250ms linear;
+    background: #f1f1f1;
+  }
 .trackList .bottom input::-moz-progress-bar{
     background:#49e12e;
     width: 50%;
