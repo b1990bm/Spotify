@@ -25,6 +25,12 @@ const AudioList = () => {
             setSongs([...Songs])
         })
     }
+    const setMainSong=(songSrc,imgSrc)=>{
+       setSong(songSrc);
+       setImage(imgSrc); 
+
+    }
+    console.log(img,song)
 
     return (
         <div className='AudioList'>
@@ -33,8 +39,10 @@ const AudioList = () => {
             </h2>
                 <div className='songsContainer'>
                     {
-                        Songs && Songs.map((song,index)=>(
-                    <div className='songs' key={song.key}>
+                        songs && songs.map((song,index)=>(
+                    <div className='songs' key={song.key}
+                            onClick={()=>setMainSong(song.song , song.imgSrc)}
+                    >
                     <div className='count'>{`#${index + 1}`}</div>
                         <div className='song'>
                             <div className='imgBox'>
@@ -70,6 +78,7 @@ const AudioList = () => {
                         ))}
 
         </div> 
+        
      </div>
     );
 };
